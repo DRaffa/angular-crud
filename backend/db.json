@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Sansumg S20+",
+      "price": "5000.20"
+    },
+    {
+      "id": 4,
+      "name": "Geladeira ++",
+      "price": 5000.89
+    },
+    {
+      "name": "Rafael",
+      "price": "1550.99",
+      "id": 6
+    },
+    {
+      "name": "Rafael Formulario",
+      "price": "3499.99",
+      "id": 7
+    },
+    {
+      "name": "Lapis Azul",
+      "price": "2.50",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<!-- Property Binding -->
+<!-- <p [id]="propriedadeLegal">
+  product-create works!
+</p> -->
+<!-- Event binding -->
+<!-- <button (click)="fazerAlgo()">Fazer Algo</button> -->
+
+<mat-card>
+  <mat-card-title>Novo Produto</mat-card-title>
+  <mat-card-content>
+    <form>
+      <mat-form-field>
+        <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+      </mat-form-field>
+    </form>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button (click)="createProduct()" color="primary">Novo Produto</button>
+    <button mat-raised-button (click)="cancel()">Cancelar</button>
+  </mat-card-actions>
+</mat-card>
